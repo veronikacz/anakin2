@@ -1,0 +1,109 @@
+ body {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  header {
+    width: 320px;
+    height: 30px;
+    background: #222;
+    color: white;
+    font-size: 15px;
+    padding: 0px 30px 0px 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+  }
+  main {
+    margin-top: 30px;
+  }
+  section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .aside {
+   width: 140px;
+  }
+  .main {
+   width: 250px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0px;
+  }
+  h1, blockquote {
+     font-family: Abril Fatface;
+     color: #222;
+  }
+  p, ul, h2, h3 {
+     font-family: Josefin Sans;
+     color: #222;
+     line-height: 1.5;
+     font-size: 10px;
+  }
+  h2 {
+    margin: 25px 0px 40px 0px;
+  }
+  h3 {
+    margin: 0px;
+  }
+  h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    margin: 0px;
+  }
+  li {
+    list-style-type: square;
+  }
+  blockquote {
+    background: #222;
+    color: white;
+    font-size: 17px;
+    padding: 0px 20px 20px 20px;
+    width: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+    margin-inline-start: 0px;
+  }
+  blockquote::before {
+    content: '\275D';
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+    font-size: 45px;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .anakin {
+    font-size: 60px;  
+  }
+  #anakinimage {
+    background-image: url("images/first-website-header.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 140px;
+  }
+  a:link, a:active, a:visited, a:hover {
+    text-decoration: none;
+    color: white;
+  }
+  .anchor{
+    display: block;
+    height: 30px; /*same height as header*/
+    margin-top: -30px; /*same height as header*/
+    visibility: hidden;
+  }
+ .name {
+     font-size: 15px;
+     font-weight: bold;
+     margin: 0px;
+     line-height: 1;
+ }
